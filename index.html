@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINI JAVASCRIPT GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <div class="main">
+        <div class="pole">
+            <div class="menuIcon"><img src="menu.svg"></div>
+            <div class="menu">
+                <div class="menuTop">MINIGAME MENU</div>
+                <ul>
+                <li><div class="new"><button>NEW GAME</button></div></li>
+                <li><div class="restart"><button>RESTART THIS EXACT GAME</button></div></li>
+                <li><div class="setting">
+                    <button class="settingConfirm"> START WITH NEW DIMENSIONS</button><br>
+                    Dimensions (4-9):<br>
+                    <input type="text" id="dimension" maxlength="1"> x 
+                    <input type="text" id="dimensionX" maxlength="1" disabled><br>
+                    Empty box location (within dimension): <br>
+                    <input type="text" id="emptX" maxlength="1">
+                    <input type="text" id="emptY" maxlength="1">
+                     
+                    
+                </div></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
